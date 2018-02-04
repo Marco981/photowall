@@ -53,6 +53,7 @@ h1 {
 
 .remove-button {
 flex-basis: 48%;
+background-color: white;
 color: red;
 font-size: 15px;
 border: 2px solid #f2f2f2;
