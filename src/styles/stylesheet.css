@@ -51,15 +51,22 @@ h1 {
     justify-content: center;
 }
 
-.remove-button {
+button {
 flex-basis: 48%;
 background-color: white;
-color: red;
 font-size: 15px;
 border: 2px solid #f2f2f2;
 line-height: 2;
 padding: 5px;
 }
+
+button:hover{
+    border-color: blue;
+}
+
+.remove-button {
+    color: red;
+    }
 
 .add-button {
     margin:20px auto;
@@ -68,4 +75,38 @@ padding: 5px;
     background: url("https://image.flaticon.com/icons/svg/60/60740.svg") center no-repeat;
     background-size: contain;
     border: none;
+}
+
+.post-button {
+    color: white;
+    font-size: 14px;
+    background:#065784;
+    padding: 15px;
+    text-transform: uppercase;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.post-button:hover {
+    background-color: #7b85a9
+}
+
+.form {
+    background: white;
+    margin: 0 auto;
+    max-width: 360px;
+    padding: 45px;
+    text-align: center;
+}
+
+.form input {
+    font: sans-serif;
+    background: #f2f2f2;
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin: 0 0 1.5rem;
 }
